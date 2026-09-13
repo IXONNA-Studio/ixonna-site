@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" role="img" aria-labelledby="title desc">
+  <title id="title">E'Onna Nixon app icon</title>
+  <desc id="desc">A purple app icon with a cyan and violet geometric N, circuit traces, and a code symbol.</desc>
+  <defs>
+    <linearGradient id="background" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#5f2ad8"/>
+      <stop offset="0.55" stop-color="#2b116f"/>
+      <stop offset="1" stop-color="#120832"/>
+    </linearGradient>
+    <linearGradient id="ribbon" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#45d6e8"/>
+      <stop offset="0.55" stop-color="#8b5cf6"/>
+      <stop offset="1" stop-color="#e879f9"/>
+    </linearGradient>
+    <clipPath id="icon-clip">
+      <rect width="128" height="128" rx="18"/>
+    </clipPath>
+  </defs>
+
+  <rect width="128" height="128" rx="18" fill="url(#background)"/>
+  <g clip-path="url(#icon-clip)" fill="none" stroke="#7c4dff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M-4 57h18l8 8h18l8 8h18"/>
+    <path d="M-6 76h22l8-8h16l9-9h18"/>
+    <path d="M2 94h18l9-9h20l7-7h18"/>
+    <circle cx="15" cy="57" r="3" fill="#a78bfa" stroke="none"/>
+    <circle cx="16" cy="76" r="3" fill="#a78bfa" stroke="none"/>
+    <circle cx="20" cy="94" r="3" fill="#a78bfa" stroke="none"/>
+  </g>
+
+  <path d="M39 25v67h18V48l32 44h18L57 25z" fill="url(#ribbon)"/>
+  <path d="M39 25h18v23L39 30z" fill="#9b6cff" opacity=".9"/>
+  <path d="M89 25h18v67H89z" fill="#6130d3"/>
+  <path d="M57 48l32 44h18L70 57z" fill="#d177f5" opacity=".42"/>
+  <text x="98" y="42" fill="#d8c9ff" font-family="monospace" font-size="11" font-weight="700" text-anchor="middle">&lt;/&gt;</text>
+</svg>

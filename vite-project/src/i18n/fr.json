@@ -1,0 +1,307 @@
+{
+  "meta": {
+    "title": "E'Onna Nixon — Développeuse Full-Stack"
+  },
+  "header": {
+    "skipToContent": "Passer au contenu principal",
+    "brandName": "E'Onna Nixon",
+    "brandTagline": "Développeuse full-stack | Résolveuse de problèmes | Créatrice engagée",
+    "brandHomeLabel": "Accueil - E'Onna Nixon",
+    "brandLogoAlt": "Logo du portfolio de E'Onna Nixon"
+  },
+  "nav": {
+    "home": "Accueil",
+    "about": "À propos",
+    "skills": "Compétences",
+    "strengths": "Atouts",
+    "experience": "Expérience",
+    "education": "Formation",
+    "projects": "Projets",
+    "contact": "Contact"
+  },
+  "hero": {
+    "eyebrow": "Développeuse full-stack",
+    "taglineLead": "Concevoir des solutions.",
+    "taglineHighlight": "Créer des possibilités.",
+    "intro": "Je suis développeuse web full-stack, passionnée par la transformation d'idées en expériences numériques fonctionnelles et porteuses de sens.",
+    "mission": "Je ne veux pas seulement écrire du code. Je veux construire des choses qui comptent.",
+    "ctaWork": "Découvrir mon travail",
+    "ctaResume": "Télécharger mon CV",
+    "portraitAlt": "E'Onna Nixon"
+  },
+  "values": {
+    "items": [
+      { "title": "Code", "body": "Passion pour un code propre et efficace." },
+      { "title": "Technologie", "body": "Connectée, adaptable, résolveuse de problèmes." },
+      { "title": "Progression", "body": "Toujours en apprentissage, en progression." },
+      { "title": "Équilibre", "body": "Bien-être mental, sens, sérénité." },
+      { "title": "Leadership", "body": "Diriger par l'exemple, créer un impact." }
+    ]
+  },
+  "about": {
+    "eyebrow": "À propos",
+    "heading": ["Curieuse par nature.", "Rigoureuse par la pratique."],
+    "portraitAlt": "Portrait numérique stylisé d'une développeuse full-stack travaillant à son bureau avec un ordinateur portable et deux écrans, dans des tons indigo et violet",
+    "paragraphs": [
+      "Mon parcours dépasse le cadre de la technologie : il inclut la santé, l'administration publique et le service client. Ce mélange influence ma façon de concevoir : je ne me demande pas seulement si quelque chose fonctionne, mais qui l'utilise, quel problème cela résout, et comment améliorer l'expérience.",
+      "Mon objectif est de continuer à perfectionner mes compétences techniques tout en les combinant à l'expérience professionnelle et à la formation que j'ai acquises dans ces domaines.",
+      "Je m'intéresse particulièrement à l'intersection entre la technologie et la santé, où de meilleures solutions numériques peuvent améliorer les processus, l'accès à l'information et l'expérience globale des personnes.",
+      "À long terme, je veux créer des technologies qui relient les gens dans la santé, les affaires et la vie quotidienne, et utiliser ce que j'apprends pour créer des opportunités, développer des solutions innovantes, bâtir des entreprises et, à terme, diriger mes propres projets et équipes."
+    ],
+    "stats": [
+      { "number": "01", "label": "Curiosité" },
+      { "number": "02", "label": "Savoir-faire" },
+      { "number": "03", "label": "Impact" }
+    ]
+  },
+  "skills": {
+    "eyebrow": "Compétences techniques",
+    "heading": ["Les outils que j'utilise", "pour livrer du concret."],
+    "items": [
+      { "title": "Ingénierie frontend", "body": "Des interfaces basées sur des composants avec React et TypeScript, stylées en CSS moderne pour des mises en page réactives et accessibles." },
+      { "title": "Backend et API", "body": "Conception de points d'accès REST et de la logique serveur, avec des flux de données prévisibles et bien validés." },
+      { "title": "Bases de données", "body": "Modélisation de données relationnelles avec PostgreSQL et Supabase, y compris la sécurité au niveau des lignes et la conception des requêtes." },
+      { "title": "Contrôle de version", "body": "Flux de travail Git par branches, revues de pull requests et déploiements automatisés avec GitHub Actions." },
+      { "title": "Tests et qualité", "body": "Linting, vérification des types et tests automatisés pour garantir la fiabilité de chaque version." },
+      { "title": "Design réactif", "body": "Traduire des maquettes en mises en page fluides, adaptées des petits téléphones aux grands écrans." }
+    ]
+  },
+  "strengths": {
+    "eyebrow": "Savoir-être et qualités",
+    "heading": ["Ce que j'apporte", "à l'équipe."],
+    "bannerAlt": "Illustration d'un espace de travail collaboratif avec des personnes dessinant sur un tableau blanc, des notes autocollantes et des ordinateurs portables ouverts",
+    "items": [
+      { "title": "Communication", "body": "Expliquer les compromis techniques en termes simples pour que l'équipe et les parties prenantes puissent décider en toute confiance." },
+      { "title": "Collaboration", "body": "Travailler ouvertement lors des revues de code et des sessions de pair programming, en partageant le contexte tôt plutôt qu'en le gardant pour soi." },
+      { "title": "Adaptabilité", "body": "Rester stable quand les priorités changent, apprendre vite de nouveaux outils, et ajuster le plan sans drame." },
+      { "title": "Résolution de problèmes", "body": "Décomposer des problèmes flous en petites étapes testables et remettre en question les suppositions avant d'écrire du code." },
+      { "title": "Gestion du temps", "body": "Évaluer le travail avec réalisme, protéger le temps de concentration, et signaler les risques avant qu'ils ne deviennent des blocages." },
+      { "title": "Empathie", "body": "Concevoir pour de vrais utilisateurs et soutenir ses coéquipiers, en gardant l'accessibilité et la clarté au cœur de chaque décision." }
+    ]
+  },
+  "experience": {
+    "eyebrow": "Expérience professionnelle",
+    "heading": ["Là où j'ai mis", "le travail."],
+    "items": [
+      {
+        "role": "Représentante / Traitement des demandes de remboursement médical",
+        "org": "CVS Health / Aetna Medicare",
+        "dates": "2024 – Aujourd'hui",
+        "summary": "Examiner et traiter les demandes de remboursement médical et les informations liées aux autorisations préalables, dans un environnement informatique à distance.",
+        "points": [
+          "Rechercher les détails des demandes, saisir et valider les données, et maintenir l'exactitude tout en respectant les exigences de productivité, de planning et de délais.",
+          "Appliquer mes connaissances en santé et en assurance pour résoudre les problèmes et garantir des résultats précis et efficaces pour les adhérents et les prestataires."
+        ]
+      },
+      {
+        "role": "Conseillère technique",
+        "org": "Kelly – Apple",
+        "dates": "2023 – 2024",
+        "summary": "Accompagner les clients dans leurs besoins techniques et de service, tout en maintenant des relations positives et une communication claire.",
+        "points": [
+          "Fournir des retours et du coaching pour soutenir la performance de l'équipe et le développement professionnel.",
+          "Contribuer à un environnement positif, axé sur le service, tout en résolvant les préoccupations des clients."
+        ]
+      },
+      {
+        "role": "Agente d'accueil administratif (Registrar I)",
+        "org": "BayCare",
+        "dates": "2021 – 2023",
+        "summary": "Gérer les données d'inscription des patients, mettre à jour les dossiers, confirmer les informations d'assurance et répondre aux demandes des patients.",
+        "points": [
+          "Examiner et rechercher des informations médicales et d'assurance, et identifier les tendances nécessitant un suivi ou un signalement.",
+          "Maintenir des informations exactes dans les systèmes hospitaliers tout en coordonnant avec les patients et les équipes internes."
+        ]
+      },
+      {
+        "role": "Support terrain",
+        "org": "Trulieve",
+        "dates": "2020 – 2023",
+        "summary": "Résoudre un grand volume de demandes clients grâce à l'écoute active, à l'esprit critique et à la résolution de problèmes.",
+        "points": [
+          "Enquêter sur les problèmes de facturation et de fraude, traiter les demandes liées aux comptes, et assister sur les problèmes de produits et de matériel/logiciel."
+        ]
+      },
+      {
+        "role": "Représentante du service client",
+        "org": "TCS",
+        "dates": "2018 – 2019",
+        "summary": "Résoudre des demandes de service complexes et des questions clients tout en documentant les résultats avec précision.",
+        "points": [
+          "Collaborer au sein d'une équipe et contribuer aux objectifs communs de service et de performance."
+        ]
+      }
+    ]
+  },
+  "education": {
+    "eyebrow": "Formation",
+    "heading": ["Comment j'ai appris", "à construire."],
+    "items": [
+      {
+        "school": "University of Pheonix",
+        "program": "Licence en administration de la santé",
+        "dates": "2026 – 2028",
+        "detail": "Axé sur la gestion, les politiques et l'administration de la santé, offrant une base solide pour comprendre le secteur de la santé."
+      },
+      {
+        "school": "Codeboxx",
+        "program": "Programme de développement web full-stack",
+        "dates": "2025 – 2026",
+        "detail": "Formation immersive par projets en JavaScript, React, API REST, SQL et flux de travail d'équipe basés sur Git."
+      },
+      {
+        "school": "Pinellas Technical College",
+        "program": "Programme de facturation et codage médical",
+        "dates": "2018 – 2019",
+        "detail": "Formation aux principes de facturation et de codage médical, en préparation d'une carrière dans le secteur de la santé."
+      },
+      {
+        "school": "Gibbs High School",
+        "program": "Diplôme d'études secondaires",
+        "dates": "2009 – 2011",
+        "detail": "Cursus en mathématiques, sciences et anglais, développant des bases solides pour la poursuite d'études supérieures."
+      }
+    ]
+  },
+  "projects": {
+    "eyebrow": "Travaux sélectionnés",
+    "heading": ["Des projets où", "les détails comptent."],
+    "items": [
+      {
+        "name": "Rocket Elevators",
+        "kind": "Plateforme full-stack",
+        "imageAlt": "Capture d'écran du tableau de bord de gestion de Rocket Elevators",
+        "description": "Plateforme de gestion full-stack pour une entreprise fictive d'ascenseurs : un site vitrine public, un parcours de demande de devis client, et un tableau de bord interne pour suivre les bâtiments, les ascenseurs et les demandes de service. Conçue pour s'exercer à concevoir un produit de bout en bout, de l'interface à l'API REST jusqu'à la base de données relationnelle.",
+        "tags": ["React", "REST API", "MySQL", "AsyncStorage", "Expo"]
+      },
+      {
+        "name": "Rocket Elevators Admin App",
+        "kind": "Application MERN CodeBoxx",
+        "imageAlt": "Capture d'écran des écrans de l'application d'administration Rocket Elevators",
+        "description": "Plateforme d'administration full-stack pour gérer les utilisateurs, agents, transactions, dossiers et contenus de Rocket Elevators.",
+        "tags": ["React Native", "Express API", "MySQL", "MongoDB", "JWT", "Mongoose"]
+      },
+      {
+        "name": "CodeBloggs",
+        "kind": "Application de contenu social",
+        "imageAlt": "Capture d'écran du fil d'actualité et des pages de profil de CodeBloggs",
+        "description": "Application web de blog social où les utilisateurs s'inscrivent, gèrent un profil, publient des articles et interagissent via un fil partagé. Conçue pour s'exercer à l'authentification, au CRUD complet et à la modélisation de données documentaires sur la stack MERN.",
+        "tags": ["React", "Express", "MongoDB", "Mongoose", "JWT", "Selenium"]
+      },
+      {
+        "name": "Rocket Food Delivery",
+        "kind": "Plateforme full-stack",
+        "imageAlt": "Plateforme mobile de livraison de repas reliant clients, restaurants et livreurs grâce à la recherche de restaurants, la commande, l'historique des commandes et la gestion des livraisons.",
+        "description": "Plateforme de gestion full-stack pour une entreprise fictive de livraison de repas : un site vitrine public, un parcours de demande de devis client, et un tableau de bord interne pour suivre les restaurants, les commandes et les livraisons. Conçue pour s'exercer à concevoir un produit de bout en bout, de l'interface à l'API REST jusqu'à la base de données relationnelle.",
+        "tags": ["React", "REST API", "MySQL", "AsyncStorage", "Expo", "Spring Boot", "Java"]
+      }
+    ]
+  },
+  "links": {
+    "eyebrow": "Me retrouver en ligne",
+    "heading": "Liens et profils.",
+    "items": [
+      {
+        "title": "GitHub",
+        "imageAlt": "Illustration représentant un profil de dépôt de code GitHub",
+        "description": "Tous mes projets se trouvent ici, y compris le code source de ce portfolio. Parcourez les dépôts pour voir comment chaque application est structurée et comment elle a évolué, commit après commit."
+      },
+      {
+        "title": "LinkedIn",
+        "imageAlt": "Illustration représentant un profil professionnel LinkedIn",
+        "description": "Mon parcours professionnel dans la santé, le support technique et le service client, ainsi que ma transition vers le développement full-stack. Le meilleur endroit pour échanger ou voir des recommandations."
+      },
+      {
+        "title": "CV (PDF)",
+        "imageAlt": "Illustration représentant un document de CV téléchargeable",
+        "description": "Un résumé d'une page de mon expérience, ma formation et mes compétences. S'ouvre dans un nouvel onglet pour être lu en ligne ou enregistré."
+      },
+      {
+        "title": "E-mail",
+        "imageAlt": "Illustration représentant une enveloppe d'e-mail",
+        "description": "Le moyen le plus direct de me contacter pour un poste, une collaboration ou une question sur l'un des projets présentés ici. Je lis et réponds à tout."
+      }
+    ]
+  },
+  "contact": {
+    "heading": "Contact",
+    "notConfigured": "Supabase n'est pas configuré pour cet environnement. Le formulaire est désactivé tant que les variables locales ou de déploiement ne sont pas fournies.",
+    "hint": "Tous les champs sont obligatoires.",
+    "nameLabel": "Nom",
+    "emailLabel": "E-mail",
+    "messageLabel": "Message",
+    "submit": "Envoyer le message",
+    "submitting": "Envoi en cours...",
+    "success": "Merci. Votre message a été envoyé.",
+    "errors": {
+      "fillAll": "Veuillez remplir tous les champs.",
+      "nameLength": "Veuillez saisir votre nom (au moins 2 caractères).",
+      "emailInvalid": "Veuillez saisir une adresse e-mail valide.",
+      "messageLength": "Votre message doit contenir au moins 10 caractères.",
+      "notConfigured": "Le stockage des messages n'est pas encore configuré. Veuillez utiliser le lien e-mail à la place.",
+      "failed": "Votre message n'a pas pu être envoyé. Veuillez réessayer plus tard."
+    }
+  },
+  "footer": {
+    "tagline": "Concevoir des solutions. Créer des possibilités. Coder un avenir sans limites.",
+    "email": "E-mail",
+    "github": "GitHub",
+    "cta": "Démarrer une conversation"
+  },
+  "languageSwitcher": {
+    "label": "Change language / Changer de langue"
+  },
+  "admin": {
+    "login": {
+      "documentTitle": "Connexion administrateur",
+      "eyebrow": "Accès restreint",
+      "heading": "Connexion administrateur",
+      "notConfigured": "L'authentification n'est pas configurée pour cet environnement.",
+      "emailLabel": "E-mail",
+      "passwordLabel": "Mot de passe",
+      "submit": "Se connecter",
+      "submitting": "Connexion en cours…",
+      "checkingSession": "Vérification de votre session…",
+      "errors": {
+        "fillAll": "Veuillez saisir votre e-mail et votre mot de passe.",
+        "emailInvalid": "Veuillez saisir une adresse e-mail valide.",
+        "invalidCredentials": "Identifiants de connexion invalides.",
+        "unavailable": "L'authentification n'est pas disponible dans cet environnement.",
+        "failed": "Connexion impossible pour le moment. Veuillez réessayer plus tard."
+      }
+    },
+    "backoffice": {
+      "documentTitle": "Espace admin",
+      "eyebrow": "Admin",
+      "heading": "Messages",
+      "signedInFallback": "Connectée",
+      "logout": "Se déconnecter",
+      "loggingOut": "Déconnexion…",
+      "loading": "Chargement des messages…",
+      "loadError": "Impossible de charger les messages.",
+      "retry": "Réessayer",
+      "empty": "Aucun message pour le moment.",
+      "deleteConfirm": "Supprimer ce message ? Cette action est irréversible.",
+      "deleteFailed": "Impossible de supprimer ce message. Veuillez réessayer.",
+      "messageCountSingular": "message",
+      "messageCountPlural": "messages",
+      "table": {
+        "name": "Nom",
+        "email": "E-mail",
+        "date": "Date",
+        "actions": "Actions"
+      },
+      "view": "Voir",
+      "delete": "Supprimer",
+      "deleting": "Suppression…",
+      "dialog": {
+        "messageFromPrefix": "Message de",
+        "closeLabel": "Fermer",
+        "nameLabel": "Nom",
+        "emailLabel": "E-mail",
+        "receivedLabel": "Reçu le",
+        "closeButton": "Fermer"
+      }
+    }
+  }
+}

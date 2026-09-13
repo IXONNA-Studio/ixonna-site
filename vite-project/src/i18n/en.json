@@ -1,0 +1,307 @@
+{
+  "meta": {
+    "title": "E'Onna Nixon — Full-Stack Developer"
+  },
+  "header": {
+    "skipToContent": "Skip to main content",
+    "brandName": "E'Onna Nixon",
+    "brandTagline": "Full-stack developer | Problem Solver | Purpose-Driven Creator",
+    "brandHomeLabel": "E'Onna Nixon home",
+    "brandLogoAlt": "E'Onna Nixon portfolio logo"
+  },
+  "nav": {
+    "home": "Home",
+    "about": "About",
+    "skills": "Skills",
+    "strengths": "Strengths",
+    "experience": "Experience",
+    "education": "Education",
+    "projects": "Projects",
+    "contact": "Contact"
+  },
+  "hero": {
+    "eyebrow": "Full-stack developer",
+    "taglineLead": "Building solutions.",
+    "taglineHighlight": "Creating possibilities.",
+    "intro": "I’m a Full-Stack Web Developer with a passion for turning ideas into functional, meaningful digital experiences.",
+    "mission": "I don't just want to write code. I want to build things that matter.",
+    "ctaWork": "Explore my work",
+    "ctaResume": "Download résumé",
+    "portraitAlt": "E'Onna Nixon"
+  },
+  "values": {
+    "items": [
+      { "title": "Code", "body": "Passion for building clean, efficient code." },
+      { "title": "Technology", "body": "Connected, adaptable, problem solver." },
+      { "title": "Growth", "body": "Always learning, leveling up." },
+      { "title": "Balance", "body": "Mental wellness, purpose, peace." },
+      { "title": "Leadership", "body": "Leading by example, creating impact." }
+    ]
+  },
+  "about": {
+    "eyebrow": "About",
+    "heading": ["Curious by default.", "Precise by practice."],
+    "portraitAlt": "Stylized digital portrait of a full-stack developer working at a desk with a laptop and dual monitors, rendered in indigo and violet tones",
+    "paragraphs": [
+      "My background reaches beyond technology into healthcare, public administration, and customer service. That mix shapes how I build: I don't only ask whether something works, but who's using it, what problem it solves, and how the experience could be better.",
+      "My goal is to keep sharpening my technical skills while combining them with the professional experience and education I've built in those fields.",
+      "I'm particularly interested in the intersection of technology and healthcare, where better digital solutions can improve workflows, access to information, and people's overall experiences.",
+      "Long term, I want to build technology that connects people across healthcare, business, and everyday life, and to use what I'm learning to create opportunities, develop innovative solutions, build businesses, and eventually lead projects and teams of my own."
+    ],
+    "stats": [
+      { "number": "01", "label": "Curiosity" },
+      { "number": "02", "label": "Craft" },
+      { "number": "03", "label": "Impact" }
+    ]
+  },
+  "skills": {
+    "eyebrow": "Technical skills",
+    "heading": ["Tools I reach for", "to ship real work."],
+    "items": [
+      { "title": "Frontend engineering", "body": "Component-driven interfaces with React and TypeScript, styled with modern CSS for responsive, accessible layouts." },
+      { "title": "Backend & APIs", "body": "Designing REST endpoints and server logic, keeping data flows predictable and well validated." },
+      { "title": "Databases", "body": "Modeling relational data in PostgreSQL and Supabase, including row-level security and query design." },
+      { "title": "Version control", "body": "Branch-based Git workflows, pull request reviews, and automated deploys with GitHub Actions." },
+      { "title": "Testing & quality", "body": "Linting, type checking, and automated tests that keep each release dependable." },
+      { "title": "Responsive design", "body": "Translating designs into fluid layouts that hold up from small phones to wide desktops." }
+    ]
+  },
+  "strengths": {
+    "eyebrow": "Soft skills & talents",
+    "heading": ["What I bring", "to the Stack."],
+    "bannerAlt": "Illustration of a collaborative team workspace with people sketching on a whiteboard, sticky notes, and open laptops",
+    "items": [
+      { "title": "Communication", "body": "Explaining technical trade-offs in plain language so teammates and stakeholders can make confident decisions." },
+      { "title": "Collaboration", "body": "Working openly in code reviews and pairing sessions, sharing context early instead of hoarding it." },
+      { "title": "Adaptability", "body": "Staying steady when priorities shift, picking up unfamiliar tools quickly, and adjusting the plan without drama." },
+      { "title": "Problem solving", "body": "Breaking vague problems into small, testable steps and questioning assumptions before writing code." },
+      { "title": "Time management", "body": "Scoping work realistically, protecting focus time, and flagging risks before they become blockers." },
+      { "title": "Empathy", "body": "Designing for real users and supporting teammates, keeping accessibility and clarity in every decision." }
+    ]
+  },
+  "experience": {
+    "eyebrow": "Work experience",
+    "heading": ["Where I've put", "the work in."],
+    "items": [
+      {
+        "role": "Medical Claims Representative / Processor",
+        "org": "CVS Health / Aetna Medicare",
+        "dates": "2024 – Present",
+        "summary": "Review and process healthcare claims and prior-authorization-related information in a remote, computer-based environment.",
+        "points": [
+          "Research claim details, enter and validate data, and maintain accuracy while meeting productivity, schedule, and deadline requirements.",
+          "Apply healthcare and insurance knowledge to resolve issues and support accurate, efficient member and provider outcomes."
+        ]
+      },
+      {
+        "role": "Technical Advisor",
+        "org": "Kelly – Apple",
+        "dates": "2023 – 2024",
+        "summary": "Supported clients with technical and service needs while maintaining positive relationships and clear communication.",
+        "points": [
+          "Provided feedback and coaching to support team performance and professional growth.",
+          "Helped foster a positive, service-focused environment while resolving customer concerns."
+        ]
+      },
+      {
+        "role": "Registrar I",
+        "org": "BayCare",
+        "dates": "2021 – 2023",
+        "summary": "Managed patient registration data, updated records, confirmed insurance information, and responded to patient inquiries.",
+        "points": [
+          "Reviewed and researched healthcare and insurance information and identified trends requiring follow-up or reporting.",
+          "Maintained accurate information across hospital systems while coordinating with patients and internal teams."
+        ]
+      },
+      {
+        "role": "Floor Support",
+        "org": "Trulieve",
+        "dates": "2020 – 2023",
+        "summary": "Resolved high-volume customer inquiries using active listening, critical thinking, and problem-solving.",
+        "points": [
+          "Investigated billing and fraud-related concerns, processed account requests, and assisted with product and hardware/software issues."
+        ]
+      },
+      {
+        "role": "Customer Service Representative",
+        "org": "TCS",
+        "dates": "2018 – 2019",
+        "summary": "Resolved complex service requests and customer inquiries while documenting outcomes accurately.",
+        "points": [
+          "Collaborated in a team-based environment and contributed to shared service and performance goals."
+        ]
+      }
+    ]
+  },
+  "education": {
+    "eyebrow": "Education",
+    "heading": ["How I learned", "to build."],
+    "items": [
+      {
+        "school": "University of Pheonix",
+        "program": "Bachelor of Science in Health Administration",
+        "dates": "2026 – 2028",
+        "detail": "Focused on healthcare management, policy, and administration, providing a strong foundation for understanding the healthcare industry."
+      },
+      {
+        "school": "Codeboxx",
+        "program": "Full-Stack Web Development Program",
+        "dates": "2025 – 2026",
+        "detail": "Immersive, project-based training in JavaScript, React, REST APIs, SQL, and Git-based team workflows."
+      },
+      {
+        "school": "Pinellas Technical College",
+        "program": "Medical Billing and Coding Program",
+        "dates": "2018 – 2019",
+        "detail": "Trained in medical billing and coding principles, preparing for a career in the healthcare industry."
+      },
+      {
+        "school": "Gibbs High School",
+        "program": "High School Diploma",
+        "dates": "2009 – 2011",
+        "detail": "Completed coursework in mathematics, science, and English, developing strong foundational skills for higher education."
+      }
+    ]
+  },
+  "projects": {
+    "eyebrow": "Selected work",
+    "heading": ["Projects that make", "the details count."],
+    "items": [
+      {
+        "name": "Rocket Elevators",
+        "kind": "Full-stack platform",
+        "imageAlt": "Screenshot of the Rocket Elevators management dashboard",
+        "description": "A full-stack management platform for a fictional elevator company: a public marketing site, a customer quote-request flow, and an internal dashboard for tracking buildings, elevators, and service requests. Built to practise designing one product end to end across the UI, a REST API, and a relational database.",
+        "tags": ["React", "REST API", "MySQL", "AsyncStorage", "Expo"]
+      },
+      {
+        "name": "Rocket Elevators Admin App",
+        "kind": "CodeBoxx MERN application",
+        "imageAlt": "Screenshot of the Rocket Elevators admin app screens",
+        "description": "Full-stack administrative platform for managing Rocket Elevators users, agents, transactions, records, and content.",
+        "tags": ["React Native", "Express API", "MySQL", "MongoDB", "JWT", "Mongoose"]
+      },
+      {
+        "name": "CodeBloggs",
+        "kind": "Social content app",
+        "imageAlt": "Screenshot of the CodeBloggs feed and profile pages",
+        "description": "A social blogging web app where people sign up, manage a profile, publish posts, and interact through a shared feed. Built to practise authentication, full CRUD, and document data modelling on the MERN stack.",
+        "tags": ["React", "Express", "MongoDB", "Mongoose", "JWT", "Selenium"]
+      },
+      {
+        "name": "Rocket Food Delivery",
+        "kind": "Full-stack platform",
+        "imageAlt": "Mobile food-delivery platform connecting customers, restaurants, and couriers through restaurant browsing, ordering, order history, and delivery management.",
+        "description": "A full-stack management platform for a fictional food delivery company: a public marketing site, a customer quote-request flow, and an internal dashboard for tracking restaurants, orders, and deliveries. Built to practise designing one product end to end across the UI, a REST API, and a relational database.",
+        "tags": ["React", "REST API", "MySQL", "AsyncStorage", "Expo", "Spring Boot", "Java"]
+      }
+    ]
+  },
+  "links": {
+    "eyebrow": "Find me online",
+    "heading": "Links & profiles.",
+    "items": [
+      {
+        "title": "GitHub",
+        "imageAlt": "Illustration representing a GitHub code repository profile",
+        "description": "Every project I've built lives here, including the source for this portfolio. Browse the repositories to see how each app is structured and how it grew commit by commit."
+      },
+      {
+        "title": "LinkedIn",
+        "imageAlt": "Illustration representing a LinkedIn professional profile",
+        "description": "My professional background across healthcare operations, technical support, and customer service, plus my move into full-stack development. The best place to connect or see recommendations."
+      },
+      {
+        "title": "Résumé (PDF)",
+        "imageAlt": "Illustration representing a downloadable résumé document",
+        "description": "A one-page summary of my experience, education, and skills. Opens in a new tab so you can read it inline or save a copy."
+      },
+      {
+        "title": "Email",
+        "imageAlt": "Illustration representing an email envelope",
+        "description": "The most direct way to reach me for roles, collaboration, or questions about any project shown here. I read and reply to everything."
+      }
+    ]
+  },
+  "contact": {
+    "heading": "Contact",
+    "notConfigured": "Supabase is not configured for this environment. The form is disabled until the local or deployment variables are provided.",
+    "hint": "All fields are required.",
+    "nameLabel": "Name",
+    "emailLabel": "Email",
+    "messageLabel": "Message",
+    "submit": "Send message",
+    "submitting": "Sending...",
+    "success": "Thanks. Your message has been sent.",
+    "errors": {
+      "fillAll": "Please fill in all fields.",
+      "nameLength": "Please enter your name (at least 2 characters).",
+      "emailInvalid": "Please enter a valid email address.",
+      "messageLength": "Your message must be at least 10 characters.",
+      "notConfigured": "Contact storage is not configured yet. Please use the email link instead.",
+      "failed": "Your message could not be sent. Please try again later."
+    }
+  },
+  "footer": {
+    "tagline": "Building solutions. Creating possibilities. Coding a future without limits.",
+    "email": "Email",
+    "github": "GitHub",
+    "cta": "Start a conversation"
+  },
+  "languageSwitcher": {
+    "label": "Change language / Changer de langue"
+  },
+  "admin": {
+    "login": {
+      "documentTitle": "Admin sign in",
+      "eyebrow": "Restricted",
+      "heading": "Admin sign in",
+      "notConfigured": "Authentication is not configured for this environment.",
+      "emailLabel": "Email",
+      "passwordLabel": "Password",
+      "submit": "Sign in",
+      "submitting": "Signing in…",
+      "checkingSession": "Checking your session…",
+      "errors": {
+        "fillAll": "Please enter your email and password.",
+        "emailInvalid": "Please enter a valid email address.",
+        "invalidCredentials": "Invalid login credentials",
+        "unavailable": "Authentication is not available in this environment.",
+        "failed": "Could not sign in right now. Please try again later."
+      }
+    },
+    "backoffice": {
+      "documentTitle": "Back office",
+      "eyebrow": "Admin",
+      "heading": "Messages",
+      "signedInFallback": "Signed in",
+      "logout": "Log out",
+      "loggingOut": "Logging out…",
+      "loading": "Loading messages…",
+      "loadError": "Couldn’t load messages.",
+      "retry": "Try again",
+      "empty": "No messages yet.",
+      "deleteConfirm": "Delete this message? This cannot be undone.",
+      "deleteFailed": "Could not delete that message. Please try again.",
+      "messageCountSingular": "message",
+      "messageCountPlural": "messages",
+      "table": {
+        "name": "Name",
+        "email": "Email",
+        "date": "Date",
+        "actions": "Actions"
+      },
+      "view": "View",
+      "delete": "Delete",
+      "deleting": "Deleting…",
+      "dialog": {
+        "messageFromPrefix": "Message from",
+        "closeLabel": "Close",
+        "nameLabel": "Name",
+        "emailLabel": "Email",
+        "receivedLabel": "Received",
+        "closeButton": "Close"
+      }
+    }
+  }
+}

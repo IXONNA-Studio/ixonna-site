@@ -1,0 +1,48 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <!--
+      Theme bootstrap (F-09, REQ-THEME-006): runs synchronously, before the
+      stylesheet paints, so an explicit stored theme choice is visible from
+      the very first frame instead of flashing the OS-default theme first.
+      When there is no stored choice, this intentionally does nothing — the
+      CSS `prefers-color-scheme` media query in index.css handles that case
+      on its own, live, with no JS required.
+    -->
+    <script>
+      (function () {
+        try {
+          var stored = localStorage.getItem('theme');
+          if (stored === 'light' || stored === 'dark') {
+            document.documentElement.setAttribute('data-theme', stored);
+          }
+        } catch (e) {}
+      })();
+    </script>
+    <!--
+      Locale bootstrap (F-10, REQ-I18N-004): runs synchronously, before React
+      mounts, so a stored language choice is reflected in <html lang> from the
+      first frame instead of always reading "en" until the app hydrates.
+      When there is no stored choice, LocaleProvider falls back to the
+      browser's language on mount.
+    -->
+    <script>
+      (function () {
+        try {
+          var stored = localStorage.getItem('locale');
+          if (stored === 'en' || stored === 'fr') {
+            document.documentElement.setAttribute('lang', stored);
+          }
+        } catch (e) {}
+      })();
+    </script>
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>E'Onna Nixon — Full-Stack Developer</title>
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>
