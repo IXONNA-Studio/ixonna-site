@@ -1,52 +1,64 @@
 {
   "meta": {
-    "title": "E'Onna Nixon — Développeuse Full-Stack"
+    "title": "IXONNA | Intelligence créative",
+    "servicesTitle": "Services | IXONNA",
+    "workTitle": "Réalisations | IXONNA",
+    "studioTitle": "Studio | IXONNA",
+    "frameworkTitle": "Méthode IX | IXONNA",
+    "insightsTitle": "Réflexions | IXONNA"
   },
   "header": {
     "skipToContent": "Passer au contenu principal",
-    "brandName": "E'Onna Nixon",
-    "brandTagline": "Développeuse full-stack | Résolveuse de problèmes | Créatrice engagée",
-    "brandHomeLabel": "Accueil - E'Onna Nixon",
-    "brandLogoAlt": "Logo du portfolio de E'Onna Nixon"
+    "brandName": "IXONNA",
+    "brandTagline": "Intelligence créative",
+    "brandHomeLabel": "Accueil - IXONNA",
+    "brandLogoAlt": "Logo du studio créatif et digital IXONNA",
+    "ctaProject": "Démarrer un projet"
   },
   "nav": {
-    "home": "Accueil",
-    "about": "À propos",
-    "skills": "Compétences",
-    "strengths": "Atouts",
-    "experience": "Expérience",
-    "education": "Formation",
-    "projects": "Projets",
+    "work": "Réalisations",
+    "services": "Services",
+    "framework": "Méthode IX",
+    "studio": "Studio",
+    "insights": "Réflexions",
     "contact": "Contact"
   },
   "hero": {
-    "eyebrow": "Développeuse full-stack",
-    "taglineLead": "Concevoir des solutions.",
-    "taglineHighlight": "Créer des possibilités.",
-    "intro": "Je suis développeuse web full-stack, passionnée par la transformation d'idées en expériences numériques fonctionnelles et porteuses de sens.",
-    "mission": "Je ne veux pas seulement écrire du code. Je veux construire des choses qui comptent.",
-    "ctaWork": "Découvrir mon travail",
-    "ctaResume": "Télécharger mon CV",
-    "portraitAlt": "E'Onna Nixon"
+    "eyebrow": "Studio de technologie créative",
+    "taglineLead": "Intelligence ×",
+    "taglineHighlight": "créativité × code.",
+    "intro": "IXONNA est un studio de technologie créative qui combine stratégie, intelligence artificielle, créativité humaine et développement pour construire des marques, des expériences et des systèmes numériques conçus pour ce qui vient ensuite.",
+    "mission": "Nous construisons ce que les marques deviennent ensuite.",
+    "ctaWork": "Découvrir nos réalisations",
+    "ctaSecondary": "Démarrer un projet",
+    "portraitAlt": "E'Onna Nixon, fondatrice d'IXONNA"
+  },
+  "statement": {
+    "eyebrow": "La déclaration IX",
+    "lead": "IX n'est pas seulement notre nom.",
+    "equation": "IX = 9",
+    "words": ["Stratégie", "Identité", "Contenu", "Social", "IA", "Développement", "Expérience", "Croissance", "Évolution"],
+    "closing": "Neuf disciplines. Une seule méthode.",
+    "cta": "Découvrir la méthode IX"
   },
   "values": {
     "items": [
-      { "title": "Code", "body": "Passion pour un code propre et efficace." },
-      { "title": "Technologie", "body": "Connectée, adaptable, résolveuse de problèmes." },
-      { "title": "Progression", "body": "Toujours en apprentissage, en progression." },
-      { "title": "Équilibre", "body": "Bien-être mental, sens, sérénité." },
-      { "title": "Leadership", "body": "Diriger par l'exemple, créer un impact." }
+      { "title": "Savoir-faire", "body": "Un engagement pour un travail soigné et réfléchi dans chaque livrable." },
+      { "title": "Technologie", "body": "Connectée, adaptable, résolveuse de problèmes par nature." },
+      { "title": "Progression", "body": "Toujours en apprentissage, toujours en progression." },
+      { "title": "Équilibre", "body": "Bien-être mental, sens et sérénité intégrés au processus." },
+      { "title": "Leadership", "body": "Diriger par l'exemple, créer un impact pour chaque client." }
     ]
   },
-  "about": {
-    "eyebrow": "À propos",
-    "heading": ["Curieuse par nature.", "Rigoureuse par la pratique."],
-    "portraitAlt": "Portrait numérique stylisé d'une développeuse full-stack travaillant à son bureau avec un ordinateur portable et deux écrans, dans des tons indigo et violet",
+  "studio": {
+    "eyebrow": "Studio",
+    "heading": ["Construite par une développeuse.", "Guidée par une stratège. Portée par une créatrice."],
+    "portraitAlt": "Le symbole IX d'IXONNA",
     "paragraphs": [
-      "Mon parcours dépasse le cadre de la technologie : il inclut la santé, l'administration publique et le service client. Ce mélange influence ma façon de concevoir : je ne me demande pas seulement si quelque chose fonctionne, mais qui l'utilise, quel problème cela résout, et comment améliorer l'expérience.",
-      "Mon objectif est de continuer à perfectionner mes compétences techniques tout en les combinant à l'expérience professionnelle et à la formation que j'ai acquises dans ces domaines.",
-      "Je m'intéresse particulièrement à l'intersection entre la technologie et la santé, où de meilleures solutions numériques peuvent améliorer les processus, l'accès à l'information et l'expérience globale des personnes.",
-      "À long terme, je veux créer des technologies qui relient les gens dans la santé, les affaires et la vie quotidienne, et utiliser ce que j'apprends pour créer des opportunités, développer des solutions innovantes, bâtir des entreprises et, à terme, diriger mes propres projets et équipes."
+      "IXONNA est un studio de technologie créative fondé par E'Onna Nixon, dont le parcours traverse la santé, l'administration publique et le service client — avant sa transition vers le développement full-stack. Cette diversité influence la façon dont le studio travaille : nous ne nous demandons pas seulement si quelque chose fonctionne, mais qui l'utilise, quel problème cela résout, et comment améliorer l'expérience.",
+      "La vision est simple : combiner l'exécution technique et la stratégie créative, pour que le travail ne soit jamais seulement du code, ni seulement une belle couche posée dessus — mais les deux, construits par les mêmes mains.",
+      "Nous nous intéressons particulièrement à l'intersection entre la technologie et la santé, où de meilleures solutions numériques peuvent améliorer les processus, l'accès à l'information et l'expérience globale des personnes.",
+      "À long terme, IXONNA existe pour créer des technologies et des marques qui relient les gens dans la santé, les affaires et la vie quotidienne — en créant des opportunités, en développant des solutions innovantes, et en aidant d'autres entreprises à construire ce qui vient ensuite."
     ],
     "stats": [
       { "number": "01", "label": "Curiosité" },
@@ -54,34 +66,59 @@
       { "number": "03", "label": "Impact" }
     ]
   },
-  "skills": {
-    "eyebrow": "Compétences techniques",
-    "heading": ["Les outils que j'utilise", "pour livrer du concret."],
+  "services": {
+    "eyebrow": "Services",
+    "heading": ["Ce que nous construisons,", "de bout en bout."],
     "items": [
-      { "title": "Ingénierie frontend", "body": "Des interfaces basées sur des composants avec React et TypeScript, stylées en CSS moderne pour des mises en page réactives et accessibles." },
-      { "title": "Backend et API", "body": "Conception de points d'accès REST et de la logique serveur, avec des flux de données prévisibles et bien validés." },
-      { "title": "Bases de données", "body": "Modélisation de données relationnelles avec PostgreSQL et Supabase, y compris la sécurité au niveau des lignes et la conception des requêtes." },
-      { "title": "Contrôle de version", "body": "Flux de travail Git par branches, revues de pull requests et déploiements automatisés avec GitHub Actions." },
-      { "title": "Tests et qualité", "body": "Linting, vérification des types et tests automatisés pour garantir la fiabilité de chaque version." },
-      { "title": "Design réactif", "body": "Traduire des maquettes en mises en page fluides, adaptées des petits téléphones aux grands écrans." }
+      { "title": "Marque", "items": ["Stratégie de marque", "Identité visuelle", "Discours de marque", "Positionnement"] },
+      { "title": "Médias", "items": ["Stratégie sociale", "Systèmes de contenu", "Campagnes", "Gestion digitale"] },
+      { "title": "Intelligence", "items": ["Flux de travail IA", "Automatisation", "Contenu assisté par IA", "Systèmes métier"] },
+      { "title": "Digital", "items": ["Design web", "Développement web", "Expériences numériques", "Produits interactifs"] }
+    ]
+  },
+  "framework": {
+    "eyebrow": "Méthode IX",
+    "heading": ["Une méthode pour transformer", "les idées en intelligence."],
+    "intro": "La méthode IX est la façon dont IXONNA fait passer une marque d'une idée à un système intelligent et fonctionnel — reproductible, et conçu pour continuer de s'améliorer après le lancement.",
+    "steps": [
+      { "number": "01", "title": "Découvrir", "body": "Étudier le public, le marché et les données avant de concevoir ou d'écrire quoi que ce soit." },
+      { "number": "02", "title": "Définir", "body": "Transformer la découverte en un brief clair : objectifs, contraintes, et à quoi ressemble vraiment le succès." },
+      { "number": "03", "title": "Positionner", "body": "Façonner l'angle stratégique et la voix qui rendent la marque impossible à confondre avec une autre." },
+      { "number": "04", "title": "Concevoir", "body": "Traduire la stratégie en un système visuel et verbal — identité, ton, et premier regard sur le travail." },
+      { "number": "05", "title": "Créer", "body": "Produire les contenus, les supports et les textes que le système exige, canal par canal." },
+      { "number": "06", "title": "Construire", "body": "Concevoir le produit : les sites, les outils et les systèmes qui donnent vie au travail." },
+      { "number": "07", "title": "Lancer", "body": "Le lancer publiquement et délibérément, avec un plan pour les premières semaines, pas seulement le premier jour." },
+      { "number": "08", "title": "Optimiser", "body": "Mesurer ce qui fonctionne, corriger ce qui ne fonctionne pas, et réinjecter les résultats dans le système." },
+      { "number": "IX", "title": "Évoluer", "body": "Continuer. Rien de ce qu'IXONNA construit n'est terminé au lancement — c'est fait pour continuer de changer." }
+    ]
+  },
+  "insights": {
+    "eyebrow": "Réflexions",
+    "heading": ["Des notes depuis", "l'atelier."],
+    "intro": "Des réflexions courtes et concrètes sur la marque, la technologie, et le travail de construire les deux à la fois.",
+    "items": [
+      { "tag": "IA et savoir-faire", "readTime": "4 min de lecture", "title": "Pourquoi « généré par l'IA » ne devrait pas vouloir dire générique.", "excerpt": "Les outils d'IA ne valent que par le jugement qui les guide. Réflexions sur comment garder la voix humaine d'une marque quand une machine aide à écrire le premier jet." },
+      { "tag": "Marque", "readTime": "3 min de lecture", "title": "Le test de 48 heures pour une marque.", "excerpt": "Une façon simple et concrète de tester une nouvelle identité avant son lancement — trois questions, un week-end, aucun comité requis." },
+      { "tag": "Réseaux sociaux", "readTime": "5 min de lecture", "title": "Le contenu social est un système, pas un coup d'éclat.", "excerpt": "La cohérence l'emporte sur la viralité sur la durée. À quoi ressemble vraiment un système de contenu reproductible, semaine après semaine." },
+      { "tag": "Web", "readTime": "4 min de lecture", "title": "Ce qu'un bon site web doit faire en 2026.", "excerpt": "Moins de pages, des chargements plus rapides, et un texte qui répond à la seule question que chaque visiteur se pose vraiment. Une liste de vérification pragmatique." }
     ]
   },
   "strengths": {
-    "eyebrow": "Savoir-être et qualités",
-    "heading": ["Ce que j'apporte", "à l'équipe."],
-    "bannerAlt": "Illustration d'un espace de travail collaboratif avec des personnes dessinant sur un tableau blanc, des notes autocollantes et des ordinateurs portables ouverts",
+    "eyebrow": "Approche",
+    "heading": ["Comment nous travaillons", "avec chaque client."],
+    "bannerAlt": "Le logotype IXONNA",
     "items": [
-      { "title": "Communication", "body": "Expliquer les compromis techniques en termes simples pour que l'équipe et les parties prenantes puissent décider en toute confiance." },
-      { "title": "Collaboration", "body": "Travailler ouvertement lors des revues de code et des sessions de pair programming, en partageant le contexte tôt plutôt qu'en le gardant pour soi." },
-      { "title": "Adaptabilité", "body": "Rester stable quand les priorités changent, apprendre vite de nouveaux outils, et ajuster le plan sans drame." },
-      { "title": "Résolution de problèmes", "body": "Décomposer des problèmes flous en petites étapes testables et remettre en question les suppositions avant d'écrire du code." },
+      { "title": "Communication", "body": "Expliquer la stratégie et les compromis en termes simples pour que les clients puissent décider en toute confiance." },
+      { "title": "Collaboration", "body": "Travailler ouvertement, en partageant les ébauches et le contexte tôt plutôt que de disparaître pendant des semaines." },
+      { "title": "Adaptabilité", "body": "Rester stable quand les priorités changent, et ajuster le plan sans drame." },
+      { "title": "Résolution de problèmes", "body": "Décomposer des demandes floues en petites étapes testables avant de s'engager sur une direction." },
       { "title": "Gestion du temps", "body": "Évaluer le travail avec réalisme, protéger le temps de concentration, et signaler les risques avant qu'ils ne deviennent des blocages." },
-      { "title": "Empathie", "body": "Concevoir pour de vrais utilisateurs et soutenir ses coéquipiers, en gardant l'accessibilité et la clarté au cœur de chaque décision." }
+      { "title": "Empathie", "body": "Concevoir pour de vrais publics et traiter chaque relation client comme un partenariat." }
     ]
   },
   "experience": {
-    "eyebrow": "Expérience professionnelle",
-    "heading": ["Là où j'ai mis", "le travail."],
+    "eyebrow": "Parcours de la fondatrice",
+    "heading": ["Avant IXONNA,", "il y a eu le travail."],
     "items": [
       {
         "role": "Représentante / Traitement des demandes de remboursement médical",
@@ -135,7 +172,7 @@
   },
   "education": {
     "eyebrow": "Formation",
-    "heading": ["Comment j'ai appris", "à construire."],
+    "heading": ["Comment la fondatrice", "a appris à construire."],
     "items": [
       {
         "school": "University of Pheonix",
@@ -165,66 +202,59 @@
   },
   "projects": {
     "eyebrow": "Travaux sélectionnés",
-    "heading": ["Des projets où", "les détails comptent."],
+    "heading": ["Des réalisations qui montrent", "notre façon de penser."],
     "items": [
       {
         "name": "Rocket Elevators",
-        "kind": "Plateforme full-stack",
+        "category": "Écosystème numérique / Plateforme web / Tableau de bord opérationnel",
         "imageAlt": "Capture d'écran du tableau de bord de gestion de Rocket Elevators",
-        "description": "Plateforme de gestion full-stack pour une entreprise fictive d'ascenseurs : un site vitrine public, un parcours de demande de devis client, et un tableau de bord interne pour suivre les bâtiments, les ascenseurs et les demandes de service. Conçue pour s'exercer à concevoir un produit de bout en bout, de l'interface à l'API REST jusqu'à la base de données relationnelle.",
-        "tags": ["React", "REST API", "MySQL", "AsyncStorage", "Expo"]
+        "description": "Un écosystème numérique full-stack pour une entreprise fictive d'ascenseurs : un site vitrine public, un parcours de demande de devis client, et un tableau de bord interne pour suivre les bâtiments, les ascenseurs et les demandes de service — conçu et construit de bout en bout, de l'interface à l'API REST jusqu'à la base de données relationnelle."
       },
       {
         "name": "Rocket Elevators Admin App",
-        "kind": "Application MERN CodeBoxx",
+        "category": "Conception produit / Plateforme d'administration / Intégration de systèmes",
         "imageAlt": "Capture d'écran des écrans de l'application d'administration Rocket Elevators",
-        "description": "Plateforme d'administration full-stack pour gérer les utilisateurs, agents, transactions, dossiers et contenus de Rocket Elevators.",
-        "tags": ["React Native", "Express API", "MySQL", "MongoDB", "JWT", "Mongoose"]
+        "description": "Le pendant administratif de Rocket Elevators : une plateforme full-stack pour gérer les utilisateurs, agents, transactions, dossiers et contenus de l'entreprise."
       },
       {
         "name": "CodeBloggs",
-        "kind": "Application de contenu social",
+        "category": "Plateforme sociale / Systèmes de contenu / Développement full-stack",
         "imageAlt": "Capture d'écran du fil d'actualité et des pages de profil de CodeBloggs",
-        "description": "Application web de blog social où les utilisateurs s'inscrivent, gèrent un profil, publient des articles et interagissent via un fil partagé. Conçue pour s'exercer à l'authentification, au CRUD complet et à la modélisation de données documentaires sur la stack MERN.",
-        "tags": ["React", "Express", "MongoDB", "Mongoose", "JWT", "Selenium"]
+        "description": "Une plateforme de blog social où les utilisateurs s'inscrivent, gèrent un profil, publient des articles et interagissent via un fil partagé — conçue pour démontrer l'authentification, le CRUD complet et la modélisation de données documentaires sur la stack MERN."
       },
       {
         "name": "Rocket Food Delivery",
-        "kind": "Plateforme full-stack",
+        "category": "Développement produit full-stack",
         "imageAlt": "Plateforme mobile de livraison de repas reliant clients, restaurants et livreurs grâce à la recherche de restaurants, la commande, l'historique des commandes et la gestion des livraisons.",
-        "description": "Plateforme de gestion full-stack pour une entreprise fictive de livraison de repas : un site vitrine public, un parcours de demande de devis client, et un tableau de bord interne pour suivre les restaurants, les commandes et les livraisons. Conçue pour s'exercer à concevoir un produit de bout en bout, de l'interface à l'API REST jusqu'à la base de données relationnelle.",
-        "tags": ["React", "REST API", "MySQL", "AsyncStorage", "Expo", "Spring Boot", "Java"]
+        "description": "Un écosystème numérique full-stack pour une entreprise fictive de livraison de repas : un site vitrine public, un parcours de commande client, et un tableau de bord interne pour suivre les restaurants, les commandes et les livraisons."
       }
     ]
   },
   "links": {
-    "eyebrow": "Me retrouver en ligne",
-    "heading": "Liens et profils.",
+    "eyebrow": "Nous retrouver",
+    "heading": "IXONNA en ligne.",
     "items": [
       {
         "title": "GitHub",
         "imageAlt": "Illustration représentant un profil de dépôt de code GitHub",
-        "description": "Tous mes projets se trouvent ici, y compris le code source de ce portfolio. Parcourez les dépôts pour voir comment chaque application est structurée et comment elle a évolué, commit après commit."
+        "description": "Le travail derrière la marque se trouve ici, y compris le code source de ce site. Parcourez les dépôts pour voir comment chaque projet est structuré et comment il a évolué, commit après commit."
       },
       {
         "title": "LinkedIn",
         "imageAlt": "Illustration représentant un profil professionnel LinkedIn",
-        "description": "Mon parcours professionnel dans la santé, le support technique et le service client, ainsi que ma transition vers le développement full-stack. Le meilleur endroit pour échanger ou voir des recommandations."
-      },
-      {
-        "title": "CV (PDF)",
-        "imageAlt": "Illustration représentant un document de CV téléchargeable",
-        "description": "Un résumé d'une page de mon expérience, ma formation et mes compétences. S'ouvre dans un nouvel onglet pour être lu en ligne ou enregistré."
+        "description": "Le parcours professionnel d'IXONNA dans la santé, le support technique, le service client et le développement full-stack. Le meilleur endroit pour échanger ou voir des recommandations."
       },
       {
         "title": "E-mail",
         "imageAlt": "Illustration représentant une enveloppe d'e-mail",
-        "description": "Le moyen le plus direct de me contacter pour un poste, une collaboration ou une question sur l'un des projets présentés ici. Je lis et réponds à tout."
+        "description": "Le moyen le plus direct de nous contacter pour un projet, une collaboration ou une question sur l'un des travaux présentés ici. Nous lisons et répondons à tout."
       }
     ]
   },
   "contact": {
-    "heading": "Contact",
+    "eyebrow": "Démarrer un projet",
+    "heading": "Quel est votre prochain IX ?",
+    "tagline": "Marquer. Construire. Lancer. Évoluer.",
     "notConfigured": "Supabase n'est pas configuré pour cet environnement. Le formulaire est désactivé tant que les variables locales ou de déploiement ne sont pas fournies.",
     "hint": "Tous les champs sont obligatoires.",
     "nameLabel": "Nom",
@@ -243,10 +273,10 @@
     }
   },
   "footer": {
-    "tagline": "Concevoir des solutions. Créer des possibilités. Coder un avenir sans limites.",
+    "tagline": "L'intelligence, rendue humaine.",
     "email": "E-mail",
     "github": "GitHub",
-    "cta": "Démarrer une conversation"
+    "cta": "Démarrer un projet"
   },
   "languageSwitcher": {
     "label": "Change language / Changer de langue"

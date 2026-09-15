@@ -114,90 +114,96 @@ function ContactForm() {
       className="portfolio-section contact-section"
       aria-labelledby="contact-heading"
     >
-      <h2 id="contact-heading">{t.contact.heading}</h2>
-      {!isSupabaseConfigured && (
-        <p role="status">{t.contact.notConfigured}</p>
-      )}
-      <form onSubmit={handleSubmit} noValidate>
-        <p className="form-hint">{t.contact.hint}</p>
-
-        <label htmlFor="contact-name">
-          {t.contact.nameLabel} <span aria-hidden="true">*</span>
-        </label>
-        <input
-          id="contact-name"
-          name="name"
-          type="text"
-          autoComplete="name"
-          value={form.name}
-          onChange={handleChange}
-          ref={nameRef}
-          required
-          aria-invalid={invalidField === 'name' || undefined}
-          aria-describedby={
-            invalidField === 'name' ? 'contact-feedback' : undefined
-          }
-        />
-
-        <label htmlFor="contact-email">
-          {t.contact.emailLabel} <span aria-hidden="true">*</span>
-        </label>
-        <input
-          id="contact-email"
-          name="email"
-          type="email"
-          autoComplete="email"
-          value={form.email}
-          onChange={handleChange}
-          ref={emailRef}
-          required
-          aria-invalid={invalidField === 'email' || undefined}
-          aria-describedby={
-            invalidField === 'email' ? 'contact-feedback' : undefined
-          }
-        />
-
-        <label htmlFor="contact-message">
-          {t.contact.messageLabel} <span aria-hidden="true">*</span>
-        </label>
-        <textarea
-          id="contact-message"
-          name="message"
-          rows={5}
-          value={form.message}
-          onChange={handleChange}
-          ref={messageRef}
-          required
-          aria-invalid={invalidField === 'message' || undefined}
-          aria-describedby={
-            invalidField === 'message' ? 'contact-feedback' : undefined
-          }
-        />
-
-        <button
-          type="submit"
-          disabled={isSubmitting || !isSupabaseConfigured || isIncomplete}
-        >
-          {isSubmitting ? t.contact.submitting : t.contact.submit}
-        </button>
-
-        {error && (
-          <p id="contact-feedback" role="alert" className="form-error">
-            <span className="feedback-icon" aria-hidden="true">
-              &#10005;
-            </span>
-            {error}
-          </p>
+      <div className="contact-heading">
+        <p className="eyebrow">{t.contact.eyebrow}</p>
+        <h2 id="contact-heading">{t.contact.heading}</h2>
+        <p className="contact-tagline">{t.contact.tagline}</p>
+      </div>
+      <div className="contact-body">
+        {!isSupabaseConfigured && (
+          <p role="status">{t.contact.notConfigured}</p>
         )}
-        {success && (
-          <p role="status" className="form-success">
-            <span className="feedback-icon" aria-hidden="true">
-              &#10003;
-            </span>
-            {success}
-          </p>
-        )}
-      </form>
+        <form onSubmit={handleSubmit} noValidate>
+          <p className="form-hint">{t.contact.hint}</p>
+
+          <label htmlFor="contact-name">
+            {t.contact.nameLabel} <span aria-hidden="true">*</span>
+          </label>
+          <input
+            id="contact-name"
+            name="name"
+            type="text"
+            autoComplete="name"
+            value={form.name}
+            onChange={handleChange}
+            ref={nameRef}
+            required
+            aria-invalid={invalidField === 'name' || undefined}
+            aria-describedby={
+              invalidField === 'name' ? 'contact-feedback' : undefined
+            }
+          />
+
+          <label htmlFor="contact-email">
+            {t.contact.emailLabel} <span aria-hidden="true">*</span>
+          </label>
+          <input
+            id="contact-email"
+            name="email"
+            type="email"
+            autoComplete="email"
+            value={form.email}
+            onChange={handleChange}
+            ref={emailRef}
+            required
+            aria-invalid={invalidField === 'email' || undefined}
+            aria-describedby={
+              invalidField === 'email' ? 'contact-feedback' : undefined
+            }
+          />
+
+          <label htmlFor="contact-message">
+            {t.contact.messageLabel} <span aria-hidden="true">*</span>
+          </label>
+          <textarea
+            id="contact-message"
+            name="message"
+            rows={5}
+            value={form.message}
+            onChange={handleChange}
+            ref={messageRef}
+            required
+            aria-invalid={invalidField === 'message' || undefined}
+            aria-describedby={
+              invalidField === 'message' ? 'contact-feedback' : undefined
+            }
+          />
+
+          <button
+            type="submit"
+            disabled={isSubmitting || !isSupabaseConfigured || isIncomplete}
+          >
+            {isSubmitting ? t.contact.submitting : t.contact.submit}
+          </button>
+
+          {error && (
+            <p id="contact-feedback" role="alert" className="form-error">
+              <span className="feedback-icon" aria-hidden="true">
+                &#10005;
+              </span>
+              {error}
+            </p>
+          )}
+          {success && (
+            <p role="status" className="form-success">
+              <span className="feedback-icon" aria-hidden="true">
+                &#10003;
+              </span>
+              {success}
+            </p>
+          )}
+        </form>
+      </div>
     </section>
   )
 }

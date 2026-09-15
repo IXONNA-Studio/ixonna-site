@@ -33,8 +33,8 @@
   --header-bg: rgba(255, 255, 255, 0.88);
 
   --sans: 'Avenir Next', Avenir, 'Segoe UI', sans-serif;
-  --heading: 'Avenir Next', Avenir, 'Segoe UI', sans-serif;
-  --mono: ui-monospace, Consolas, monospace;
+  --heading: 'Fraunces', 'Iowan Old Style', Georgia, serif;
+  --mono: 'Space Mono', ui-monospace, Consolas, monospace;
 
   font: 18px/145% var(--sans);
   letter-spacing: 0.18px;
@@ -156,8 +156,6 @@ body,
 
 #root {
   width: 100%;
-  max-width: 1280px;
-  margin: 0 auto;
   text-align: center;
   min-height: 100svh;
   box-sizing: border-box;
@@ -180,30 +178,31 @@ main > .ticks {
   scroll-margin-top: 88px;
 }
 
+main > .portfolio-section:first-child {
+  border-top: none;
+}
+
 h1,
 h2 {
   font-family: var(--heading);
-  font-weight: 500;
+  font-weight: 480;
   color: var(--text-h);
 }
 
 h1 {
-  font-size: 56px;
-  letter-spacing: -1.68px;
+  font-size: clamp(48px, 7vw, 108px);
+  line-height: 0.98;
+  letter-spacing: -0.02em;
   margin: 32px 0;
   @media (max-width: 1024px) {
-    font-size: 36px;
     margin: 20px 0;
   }
 }
 h2 {
-  font-size: 24px;
-  line-height: 118%;
-  letter-spacing: -0.24px;
+  font-size: clamp(28px, 3.4vw, 44px);
+  line-height: 1.06;
+  letter-spacing: -0.01em;
   margin: 0 0 8px;
-  @media (max-width: 1024px) {
-    font-size: 20px;
-  }
 }
 p {
   margin: 0;
@@ -222,4 +221,26 @@ code {
   line-height: 135%;
   padding: 4px 8px;
   background: var(--code-bg);
+}
+
+/* Cursor accent (Cursor.tsx): a small ring that trails the pointer and
+   grows over anything clickable. Fixed pointer-events:none layer, so it
+   never interferes with real clicks or text selection. */
+.cursor-ring {
+  position: fixed;
+  z-index: 999;
+  width: 22px;
+  height: 22px;
+  margin-left: -11px;
+  margin-top: -11px;
+  border: 1.5px solid var(--accent);
+  border-radius: 50%;
+  pointer-events: none;
+  mix-blend-mode: difference;
+}
+
+@media (pointer: coarse) {
+  .cursor-ring {
+    display: none;
+  }
 }

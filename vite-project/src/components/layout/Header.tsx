@@ -1,15 +1,18 @@
-import logo from '../../assets/nixon-logo.svg'
+import { Link } from 'react-router-dom'
+import logo from '../../assets/branding/IXONNA-IX-symbol.png'
 import { useLocale } from '../../context/locale-context'
+import Magnetic from '../motion/Magnetic'
+
+const withBase = (path: string) =>
+  import.meta.env.BASE_URL.replace(/\/$/, '') + path
 
 const navigationItems = [
-  { key: 'home', href: '#home', icon: '⌂' },
-  { key: 'about', href: '#about', icon: '◌' },
-  { key: 'skills', href: '#skills', icon: '◈' },
-  { key: 'strengths', href: '#strengths', icon: '✦' },
-  { key: 'experience', href: '#experience', icon: '▦' },
-  { key: 'education', href: '#education', icon: '❖' },
-  { key: 'projects', href: '#projects', icon: '◇' },
-  { key: 'contact', href: '#contact', icon: '@' },
+  { key: 'work', icon: '◇', to: '/work' },
+  { key: 'services', icon: '◈', to: '/services' },
+  { key: 'framework', icon: '✳', to: '/framework' },
+  { key: 'studio', icon: '◌', to: '/studio' },
+  { key: 'insights', icon: '✦', to: '/insights' },
+  { key: 'contact', icon: '@', hash: '#contact' },
 ] as const
 
 function Header() {
@@ -21,9 +24,9 @@ function Header() {
         {t.header.skipToContent}
       </a>
       <div className="site-header__inner">
-        <a
+        <Link
           className="site-brand"
-          href="#home"
+          to="/"
           aria-label={t.header.brandHomeLabel}
         >
           <img
@@ -35,21 +38,35 @@ function Header() {
             {t.header.brandName}
             <small>{t.header.brandTagline}</small>
           </span>
-        </a>
+        </Link>
         <nav aria-label="Main navigation">
           <ul className="site-nav">
             {navigationItems.map((item) => (
-              <li key={item.href}>
-                <a href={item.href}>
-                  <span className="site-nav__icon" aria-hidden="true">
-                    {item.icon}
-                  </span>
-                  <span className="site-nav__label">{t.nav[item.key]}</span>
-                </a>
+              <li key={item.key}>
+                {'hash' in item ? (
+                  <a href={withBase(`/${item.hash}`)}>
+                    <span className="site-nav__icon" aria-hidden="true">
+                      {item.icon}
+                    </span>
+                    <span className="site-nav__label">{t.nav[item.key]}</span>
+                  </a>
+                ) : (
+                  <Link to={item.to}>
+                    <span className="site-nav__icon" aria-hidden="true">
+                      {item.icon}
+                    </span>
+                    <span className="site-nav__label">{t.nav[item.key]}</span>
+                  </Link>
+                )}
               </li>
             ))}
           </ul>
         </nav>
+        <Magnetic className="site-header__cta">
+          <a className="nav-cta" href={withBase('/#contact')}>
+            {t.header.ctaProject} <span aria-hidden="true">→</span>
+          </a>
+        </Magnetic>
       </div>
     </header>
   )
